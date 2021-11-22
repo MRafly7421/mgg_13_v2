@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.judul {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.judul h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+input, button {
+    height: 38px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    padding-left: 12px;
+    border: 2px solid lightgray;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: 2px solid black;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.form-box {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+}
+
+.form-box form {
+    margin-left: 2%;
+}
+
+.form-box form input {
+    width: 25%;
+}
+
+.form-box form button {
+    width: 20%;
+}
+
+.print {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+.print .show {
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
