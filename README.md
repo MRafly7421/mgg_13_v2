@@ -1,4 +1,4 @@
 # mgg_13_v2
 
 ## Output :
-### https://rhxx.000webhostapp.com/other/mgg_13/
+### [link](https://rhxx.000webhostapp.com/other/mgg_13/){:target="_blank"}
