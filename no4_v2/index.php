@@ -62,10 +62,10 @@
                 $j = (intPart((10985-$l)/5316))*(intPart((50*$l)/17719))+(intPart($l/5670))*(intPart((43*$l)/15238));
                 $l = $l-(intPart((30-$j)/15))*(intPart((17719*$j)/50))-(intPart($j/16))*(intPart((15238*$j)/43))+29;
                 
-                $hMonth = intPart((24*$l)/709);
-                $jMonth = $hMonth;
-                $hDay = $l-intPart((709*$hMonth)/24);
-                $jDay = $hDay;
+                $jMonth = intPart((24*$l)/709);
+                // $hMonth = $hMonth;
+                $jDay = $l-intPart((709*$hMonth)/24);
+                // $hDay = $hDay+1;
                 $hYear = 30*$n+$j-30;
                 $jYear = $hYear+512;
                 $pasaranJawa = ($julian+3)%5;
